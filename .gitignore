@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/SMEAppHouse.Binance.AutoScalper/bin/Debug
+/SMEAppHouse.Binance.AutoScalper/obj
+/SMEAppHouse.Binance.AutoScalper2/bin/Debug/netcoreapp3.1
+/SMEAppHouse.Binance.AutoScalper2/obj
+/SMEAppHouse.Binance.AutoScalper3/obj
+/SMEAppHouse.Binance.AutoScalper5/bin/Debug/netcoreapp3.1
+/SMEAppHouse.Binance.AutoScalper5/obj

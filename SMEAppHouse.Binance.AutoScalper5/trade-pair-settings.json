@@ -1,0 +1,13 @@
+[
+  {
+    "Symbol": "ETH",
+    "Pair": "USDT",
+    "TradeTimeFrameInSecs": 45,
+    "TradeSamplesMinimum": 60,
+    "TradeSamplesSize": 180, // means three hours
+    "TradeFundBehavior": 1, // UseLimit = 0, Cummulative = 1
+    "TradeFundLimit": 12,
+    "KLineInterval": "1m",
+    "Active": true
+  }
+]

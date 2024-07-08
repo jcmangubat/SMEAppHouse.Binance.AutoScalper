@@ -1,0 +1,514 @@
+{
+  "trader-broker-config": [
+    {
+      "Symbol": "BNB",
+      "Pair": "USDT",
+      "TradeScalpingTolerance": 3,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": true,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "ETH",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 30,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "BTC",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "DOGE",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "XRP",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "ADA",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "MATIC",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "WIN",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "YFI",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "DOT",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "THETA",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "SHIB",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "ETC",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "CAKE",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "NEO",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "GBP",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    },
+    {
+      "Symbol": "SOL",
+      "Pair": "USDT",
+      "TradeScalpTolerance": 1.5,
+      "TradeAtSecondsTrigger": 5,
+      "TradePlayAmount": 1000,
+      "Active": false,
+      "BuyDipFlags": [
+        [ 0, 0, 0, 1 ],
+        [ 0, 0, 1, 1 ]
+      ],
+      "SellBackFlags": [
+        [ 0, 0, 0, 1, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0 ],
+        [ 0, 0, 0, 1, 0, 1, 0, 0 ],
+        [ 0, 0, 1, 1, 0, 0 ]
+      ],
+      "SellPeekFlags": [
+        [ 1, 1, 1, 0 ],
+        [ 1, 1, 0, 0 ]
+      ],
+      "BuyBackFlags": [
+        [ 1, 1, 1, 0, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1 ],
+        [ 1, 1, 1, 0, 1, 0, 1, 1 ],
+        [ 1, 1, 0, 0, 1, 1 ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "trader-broker-config": [
+    {
+      "Symbol": "ETH",
+      "Pair": "USDT",
+      "TradeScalpingTolerance": 3,
+      "TradeTimeFrameInSeconds": 45,
+      "TradingFund": 12, 
+      "Active": true
+    }
+  ]
+}

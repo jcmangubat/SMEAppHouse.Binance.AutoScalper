@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Indicators\AO.cs" />
+    <Compile Remove="Indicators\MACD.cs" />
+    <Compile Remove="Indicators\VWAP.cs" />
+    <Compile Remove="Services\TradeBrokerService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="106.12.0" />
+    <PackageReference Include="TextCopy" Version="4.3.1" />
+    <PackageReference Include="Topshelf" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\.Libraries\.netCore\SMEAppHouse.Core.CodeKits\SMEAppHouse.Core.CodeKits.csproj" />
+    <ProjectReference Include="..\..\..\..\.Libraries\.netCore\SMEAppHouse.Core.TopshelfAdapter.Aggregation\SMEAppHouse.Core.TopshelfAdapter.Aggregation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="M3C.Finance.BinanceSdk">
+      <HintPath>..\bins\M3C.Finance.BinanceSdk.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="trade-pair-settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
