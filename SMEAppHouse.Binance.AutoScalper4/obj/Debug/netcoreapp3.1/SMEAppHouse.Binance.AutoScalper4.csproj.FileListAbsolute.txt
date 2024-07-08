@@ -1,5 +1,0 @@
-K:\_Projects\binance-auto-pilot\SMEAppHouse.Binance.AutoScalper\SMEAppHouse.Binance.AutoScalper4\obj\Debug\netcoreapp3.1\SMEAppHouse.Binance.AutoScalper4.csproj.AssemblyReference.cache
-K:\_Projects\binance-auto-pilot\SMEAppHouse.Binance.AutoScalper\SMEAppHouse.Binance.AutoScalper4\obj\Debug\netcoreapp3.1\SMEAppHouse.Binance.AutoScalper4.GeneratedMSBuildEditorConfig.editorconfig
-K:\_Projects\binance-auto-pilot\SMEAppHouse.Binance.AutoScalper\SMEAppHouse.Binance.AutoScalper4\obj\Debug\netcoreapp3.1\SMEAppHouse.Binance.AutoScalper4.AssemblyInfoInputs.cache
-K:\_Projects\binance-auto-pilot\SMEAppHouse.Binance.AutoScalper\SMEAppHouse.Binance.AutoScalper4\obj\Debug\netcoreapp3.1\SMEAppHouse.Binance.AutoScalper4.AssemblyInfo.cs
-K:\_Projects\binance-auto-pilot\SMEAppHouse.Binance.AutoScalper\SMEAppHouse.Binance.AutoScalper4\obj\Debug\netcoreapp3.1\SMEAppHouse.Binance.AutoScalper4.csproj.CoreCompileInputs.cache
